@@ -64,3 +64,8 @@ div.more{
 .warning {
 	content:url(../data/img/ui/warning.png);
 	width: 70%;
+}
+
+.beta {content:url(../data/img/ui/beta.png);
+    width: 5%;
+}
