@@ -63,6 +63,12 @@ h3{
 	font-weight: bold;
 }
 
+.realm {
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: bold;
+}
+
 .rewrite {
 	font-size: 16pt;
 	font-style: italic;
@@ -87,6 +93,11 @@ h3{
 
 .beta {content:url(data/img/ui/beta.png);
     width: 5%;
+}
+
+.former {
+	content:url(data/img/ui/former.png);
+	width: 7%;
 }
 
 #sfw-link{
