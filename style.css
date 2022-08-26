@@ -21,6 +21,18 @@ a{
 	color: green;
 }
 
+li{
+	font-family: Starcraft, Verdana, sans-serif;
+	color: brown;
+}
+
+h1 {
+	font-family: Starcraft, Verdana, sans-serif;
+	font-style:italic;
+	color: chocolate;
+	/*line-height: 0.25;*/
+}
+
 h2{
     color: orange;
 }
@@ -30,6 +42,14 @@ h3{
     font-size: 34pt;
     color: orange;
     font-style: italic;
+}
+
+h4{
+	font-family: Verdana, sans-serif;
+	font-style:italic;
+	color: chocolate;
+	text-decoration: underline;
+	/*line-height: 0.1;*/
 }
 
 .small-text {
