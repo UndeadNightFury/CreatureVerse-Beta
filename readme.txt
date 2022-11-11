@@ -17,10 +17,7 @@ Tyrannosaurus Rex
 Great Wyrm
 ---
 {Planed Chnages}
-Cookie Banner
-New Path System
-JavaScript Overhaul
-Cookies
+N/A
 ---
 {Bugs}
 None!
