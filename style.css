@@ -7,7 +7,9 @@ body {
 }
 
 html{
-	background-color: black
+	background-image: url("data/img/ui/background.png");
+	background-size: 100%;
+	background-color: black;
 }
 
 p{
@@ -19,6 +21,7 @@ a{
 	font-family: Starcraft, Verdana, sans-serif;
 	font-size: 24pt;
 	color: green;
+	background-color: black;
 }
 
 li{
@@ -53,28 +56,46 @@ h4{
 }
 
 .small-text {
+	display: table;
+	padding: 2px 5px;
 	font-size: 10pt;
+	background-color: black;
 }
 
 .disclaimer-text {
 	font-size: 10pt;
+	background-color: black;
 }
 
 .large-text {
 	font-size: 18pt;
+	background-color: black;
+}
+
+.large-text-link {
+	margin: auto;
+	width: 50%;
+	font-size: 18pt;
+	background-color: black;
 }
 
 .title-text {
+	display: table;
+	padding: 2px 5px;
 	font-size: 30pt;
+	background-color: black;
 }
 
 .warning-text {
 	font-size: 18pt;
 	font-style: italic;
 	font-weight: bold;
+	background-color: black;
 }
 
 .choose-text {
+	margin: auto;
+	width: 50%;
 	font-size: 20pt;
 }
 .coming-soon {
@@ -108,11 +129,11 @@ h4{
 
 .new {
 	content:url(data/img/ui/new.png);
-	width: 5%;
+	width: 10%;
 }
 
 .beta {content:url(data/img/ui/beta.png);
-    width: 5%;
+    width: 10%;
 }
 
 .former {

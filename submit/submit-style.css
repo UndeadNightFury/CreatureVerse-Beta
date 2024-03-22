@@ -7,7 +7,7 @@ body {
 }
 
 html{
-	background-color: black
+	background-color: black;
 }
 
 p{
@@ -18,6 +18,7 @@ p{
 a{
 	font-family: Starcraft, Verdana, sans-serif;
 	color: green;
+	background-color: black;
 }
 
 li{
@@ -26,9 +27,12 @@ li{
 }
 
 h1{
+	display: table;
+	padding: 2px 5px;
 	font-family: Starcraft, Verdana, sans-serif;
 	font-style:italic;
 	color: chocolate;
+	background-color: black;
 	/*line-height: 0.25;*/
 }
 
@@ -47,12 +51,14 @@ h4{
 	font-family: Verdana, sans-serif;
 	font-style:italic;
 	color: chocolate;
+	background-color: black;
 	text-decoration: underline;
 	/*line-height: 0.1;*/
 }
 
 .small-text {
 	font-size: 10pt;
+	background-color: black;
 }
 
 .disclaimer-text {
@@ -61,6 +67,7 @@ h4{
 
 .large-text {
 	font-size: 18pt;
+	background-color: black;
 }
 
 .title-text {
