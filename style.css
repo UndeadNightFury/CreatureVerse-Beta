@@ -15,7 +15,6 @@ html{
 
 p{
 	color: #006400;
-	font-family: Verdana, sans-serif;
 }
 
 a{
@@ -59,69 +58,83 @@ h4{
 	display: table;
 	padding: 2px 5px;
 	font-size: 10pt;
-	background-color: black;
+	background-color: #00000080;
+}
+
+.small-text-version {
+	display: table;
+	padding: 2px 5px;
+	font-size: 10pt;
+	font-family: sans-serif;
+	background-color: #00000080;
 }
 
 .disclaimer-text {
 	font-size: 10pt;
-	background-color: black;
+	font-family: Verdana;
+	background-color: #00000080;
 }
 
 .large-text {
 	font-size: 18pt;
-	background-color: black;
+	font-family: Cascadia, monospace;
+	background-color: #00000080;
 }
 
 .large-text-link {
 	margin: auto;
 	width: 50%;
 	font-size: 18pt;
-	background-color: black;
+	background-color: #00000080;
 }
 
 .title-text {
-	display: table;
-	padding: 2px 5px;
-	font-size: 30pt;
-	background-color: black;
+	margin: auto;
+	width: 43.7%;
+	font-size: 15pt;
+	background-color: #00000080;
 }
 
 .warning-text {
 	font-size: 18pt;
 	font-style: italic;
 	font-weight: bold;
-	background-color: black;
+	font-family: Cascadia;
+	background-color: #00000080;
 }
 
 .choose-text {
 	margin: auto;
 	width: 50%;
 	font-size: 20pt;
-	background-color: black;
+	background-color: #00000080;
 }
 
 .choose-text-small {
 	margin: auto;
 	width: 16%;
 	font-size: 20pt;
-	background-color: black;
+	background-color: #00000080;
 }
 
 .choose-text-species {
 	margin: auto;
 	width: 25%;
 	font-size: 20pt;
-	background-color: black;
+	font-family: Starcraft;
+	background-color: #00000080;
 }
 
 .coming-soon {
 	font-size: 16pt;
+	font-family: Cascadia, monospace;
 	font-style: italic;
 	font-weight: bold;
 }
 
 .realm {
-	font-size: 12pt;
+	font-size: 15pt;
+	font-family: Cascadia, monospace;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -134,14 +147,14 @@ h4{
 	font-style: italic;
 	font-weight: bold;
 	color: grey;
-	background-color: black;
+	background-color: #00000080;
 }
 
 .credits {
 	margin: auto;
 	width: 48%;
 	font-size: 18pt;
-	background-color: black;
+	background-color: #00000080;
 }
 
 .link {

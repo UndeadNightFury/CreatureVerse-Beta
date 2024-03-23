@@ -1,5 +1,6 @@
 /*importing Starcraft font for use*/
-@import url("font/font_family.css");
+@import url("../font/starcraft.css");
+@import url("../font/cascadia.css");
 
 body {
 	padding-left: 10%;
@@ -12,13 +13,12 @@ html{
 }
 
 p{
-	color: brown;
-	font-family: Verdana, sans-serif;
+	color: #006400;
 }
 
 a{
 	font-family: Starcraft, Verdana, sans-serif;
-	color: green;
+	color: #800000;
 }
 
 li{
@@ -66,13 +66,15 @@ h4{
 
 .large-text {
 	font-size: 18pt;
-	background-color: black;
+	font-family: Cascadia, monospace;
+	background-color: #00000080;
 	width: 75%;
 }
 
 .template {
 	font-size: 18pt;
-	background-color: black;
+	font-family: Cascadia, monospace;
+	background-color: #00000080;
 	width: 80%;
 }
 
@@ -111,7 +113,7 @@ h4{
 .link {
 	font-size: 18pt;
 	font-style: italic;
-	background-color: black;
+	background-color: #00000080;
 	width: 35%;
 }
 
