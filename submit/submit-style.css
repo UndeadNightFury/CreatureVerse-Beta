@@ -7,6 +7,7 @@ body {
 }
 
 html{
+	background-image: url(../data/img/ui/background.png);
 	background-color: black;
 }
 
@@ -18,7 +19,6 @@ p{
 a{
 	font-family: Starcraft, Verdana, sans-serif;
 	color: green;
-	background-color: black;
 }
 
 li{
@@ -32,7 +32,6 @@ h1{
 	font-family: Starcraft, Verdana, sans-serif;
 	font-style:italic;
 	color: chocolate;
-	background-color: black;
 	/*line-height: 0.25;*/
 }
 
@@ -50,8 +49,8 @@ h3{
 h4{
 	font-family: Verdana, sans-serif;
 	font-style:italic;
+	font-size: 18pt;
 	color: chocolate;
-	background-color: black;
 	text-decoration: underline;
 	/*line-height: 0.1;*/
 }
@@ -68,6 +67,13 @@ h4{
 .large-text {
 	font-size: 18pt;
 	background-color: black;
+	width: 75%;
+}
+
+.template {
+	font-size: 18pt;
+	background-color: black;
+	width: 80%;
 }
 
 .title-text {
@@ -105,6 +111,8 @@ h4{
 .link {
 	font-size: 18pt;
 	font-style: italic;
+	background-color: black;
+	width: 35%;
 }
 
 .incomplete, .warning {
