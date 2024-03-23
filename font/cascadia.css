@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Cascadia';
-    src: url('CascadiaMonoItalic.woff2') format('woff2'),
-         url('CascadiaMonoItalic.ttf') format('truetype');
-    font-weight: normal;
+    src: url('CascadiaMonoItalic.woff2') format('woff2-variations'),
+         url('CascadiaMonoItalic.ttf') format('truetype-variations');
+    font-weight: 200 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Cascadia';
-    src: url('CascadiaMono.woff2') format('woff2'),
-         url('CascadiaMono.ttf') format('truetype');
-    font-weight: normal;
+    src: url('CascadiaMono.woff2') format('woff2-variations'),
+         url('CascadiaMono.ttf') format('truetype-variations');
+    font-weight: 200 700;
     font-style: normal;
 }
