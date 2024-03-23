@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Cascadia';
+    src: url('CascadiaMonoItalic.woff2') format('woff2'),
+         url('CascadiaMonoItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cascadia';
+    src: url('CascadiaMono.woff2') format('woff2'),
+         url('CascadiaMono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,5 +1,6 @@
 /*importing Starcraft font for use*/
-@import url("font/font_family.css");
+@import url("font/starcraft.css");
+@import url("font/cascadia.css");
 
 body {
 	padding-left: 10%;
