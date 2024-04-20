@@ -24,7 +24,7 @@
 </div>
 
 <p align="left">
-<a href="../manual.html#oc-indoraptors"><img src="../../data/img/ui/back.png" alt="Back" height="30" width="100" /></a>
+<a href="../manual.html#oc"><img src="../../data/img/ui/back.png" alt="Back" height="30" width="100" /></a>
 </p>
 
 <div id="oc">
@@ -36,10 +36,33 @@
 <div class="large-text-title" id="oc-pack"><h2>Pack: <i/>Blank</i></h2></div>
 <div class="large-text" id="oc-desc"><h2>Description: <i/>Blank</i></h2></div>
 
-<p align="right"><a href="#top">Top of Page</a></p>
-
 <p align="left">
-<a href=""><img src="../../data/img/ui/back.png" alt="Back" height="30" width="100" /></a>
+<a href="../manual.html#oc"><img src="../../data/img/ui/back.png" alt="Back" height="30" width="100" /></a>
 </p>
+
+<button onclick="topFunction()" id="topbtn" title="Go to top">Top</button>
+
+<script>
+	// Get the button
+	let mybutton = document.getElementById("topbtn");
+	
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+	
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		mybutton.style.display = "block";
+	  } else {
+		mybutton.style.display = "none";
+	  }
+	}
+	
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+	}
+</script>
+
 </body>
 </html>
