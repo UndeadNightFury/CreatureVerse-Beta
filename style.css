@@ -79,6 +79,7 @@ h4{
 	font-family: Starcraft, Verdana, sans-serif;
 	padding: 0pt 3pt;
 	width: fit-content;
+	margin-left: auto;
 	font-size: 12pt;
 	background-color: #00000080;
 }
