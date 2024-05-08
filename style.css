@@ -136,6 +136,20 @@ h4{
 }
 
 .coming-soon {
+	width: 18%;
+	content:url(data/img/ui/coming_soon.png);
+}
+
+.coming-soon-link {
+	width: fit-content;
+	font-size: 18pt;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Starcraft, Cascadia, monospace;
+	color: silver;
+}
+
+.coming-soon-old {
 	font-size: 16pt;
 	font-family: Cascadia, monospace;
 	font-style: italic;
