@@ -172,6 +172,21 @@ h4{
 	font-style: italic;
 }
 
+.oc-link {
+	width: fit-content;
+	font-size: 18pt;
+	font-family: Cascadia, monospace;
+	color: #006400;
+}
+
+.hidden-link {
+	width: fit-content;
+	font-size: 18pt;
+	font-family: Cascadia, monospace;
+	text-decoration: none;
+	color: #006400;
+}
+
 .incomplete, .warning {
 	content:url(data/img/ui/warning.png);
 	width: 70%;
