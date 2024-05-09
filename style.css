@@ -114,8 +114,9 @@ h4{
 }
 
 .choose-text {
+	padding: 0px 5px;
 	margin: auto;
-	width: 50%;
+	width: fit-content;
 	font-size: 20pt;
 	background-color: #00000080;
 }
@@ -129,20 +130,20 @@ h4{
 
 .choose-text-species {
 	margin: auto;
-	width: 25%;
+	width: fit-content;
 	font-size: 20pt;
 	font-family: Starcraft;
 	background-color: #00000080;
 }
 
 .coming-soon {
-	width: 18%;
+	height: 3%;
 	content:url(data/img/ui/coming_soon.png);
 }
 
 .coming-soon-link {
 	width: fit-content;
-	font-size: 18pt;
+	font-size: 20pt;
 	font-weight: bold;
 	font-style: italic;
 	font-family: Starcraft, Cascadia, monospace;
@@ -208,10 +209,19 @@ h4{
 
 .new {
 	content:url(data/img/ui/new.png);
-	width: 10%;
+	height: 3%;
 }
 
 .beta {content:url(data/img/ui/beta.png);
+    height: 3%;
+}
+
+.new-old {
+	content:url(data/img/ui/new.png);
+	width: 10%;
+}
+
+.beta-old {content:url(data/img/ui/beta.png);
     width: 10%;
 }
 
