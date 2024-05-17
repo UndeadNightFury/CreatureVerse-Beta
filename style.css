@@ -105,6 +105,16 @@ h4{
 	background-color: #00000080;
 }
 
+.warning-text-index {
+	margin: auto;
+	width: 75%;
+	font-size: 18pt;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Cascadia;
+	background-color: #00000080;
+}
+
 .warning-text {
 	font-size: 18pt;
 	font-style: italic;
