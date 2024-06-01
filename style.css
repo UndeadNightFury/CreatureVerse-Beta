@@ -219,6 +219,11 @@ h4{
 	color: #006400;
 }
 
+.the_end {
+	content:url(data/img/ui/the_end.png);
+	margin: auto;
+}
+
 .incomplete, .warning {
 	content:url(data/img/ui/warning.png);
 	width: 70%;
