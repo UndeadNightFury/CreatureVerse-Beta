@@ -116,6 +116,12 @@ ol {
 	font-weight: bold;
 }
 
+.warning-text {
+	font-size:18pt;
+	font-style: italic;
+	font-weight:bold;
+}
+
 .warning {
 	content:url(../data/img/ui/warning.png);
 	width: 70%;
