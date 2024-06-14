@@ -105,6 +105,13 @@ h4{
 	background-color: #00000080;
 }
 
+.title-text-test {
+	margin: auto;
+	width: fit-content;
+	font-size: 15pt;
+	background-color: #00000080;
+}
+
 .warning-text-index {
 	margin: auto;
 	width: 75%;
