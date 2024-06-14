@@ -100,13 +100,6 @@ h4{
 
 .title-text {
 	margin: auto;
-	width: 43.7%;
-	font-size: 15pt;
-	background-color: #00000080;
-}
-
-.title-text-test {
-	margin: auto;
 	width: fit-content;
 	font-size: 15pt;
 	background-color: #00000080;
