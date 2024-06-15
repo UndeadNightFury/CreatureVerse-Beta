@@ -92,8 +92,10 @@ h4{
 }
 
 .sfw-text {
-	float: left;
-	position: relative;
+	float: none;
+	position: fixed;
+	top: 20%;
+	margin-right: 75;
 	width: fit-content;
 	font-size: 18pt;
 	font-family: Cascadia, monospace;
@@ -102,10 +104,21 @@ h4{
 
 .nsfw-text {
 	float: none;
+	position: fixed;
+	top: 20%;
+	margin-right: 75;
 	width: fit-content;
+	height: auto;
 	font-size: 18pt;
 	font-family: Cascadia, monospace;
 	background-color: #00000080;
+}
+
+.float {
+	float: left;
+	position: fixed;
+	bottom: 100;
+	left: 75;
 }
 
 .large-text-link {
@@ -149,6 +162,16 @@ h4{
 
 .choose-text {
 	padding: 0px 5px;
+	margin: auto;
+	width: fit-content;
+	font-size: 20pt;
+	background-color: #00000080;
+}
+
+.choose-text-test {
+	position: absolute;
+	bottom: 30;
+	right: 30;
 	margin: auto;
 	width: fit-content;
 	font-size: 20pt;
