@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', function () {
     checkbox.addEventListener('change', function () {
       if (checkbox.checked) {
         // do this
-        console.log('Checked');
+        console.log('NSFW');
         document.getElementById('sfw').style.visibility = 'hidden';
         document.getElementById('nsfw').style.visibility = 'visible';
       } 
       else {
         // do that
-        console.log('Not checked');
+        console.log('SFW');
         document.getElementById('sfw').style.visibility = 'visible';
         document.getElementById('nsfw').style.visibility = 'hidden';
       }
