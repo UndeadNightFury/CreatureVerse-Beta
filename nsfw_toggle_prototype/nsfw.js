@@ -23,13 +23,13 @@ function updateNsfw() {
   var nsfw = getCookie("NsfwEnabled");
   if (nsfw == "true") {
      console.log('NSFW');
-     document.getElementById('sfw').style.visibility = 'hidden';
-     document.getElementById('nsfw').style.visibility = 'visible';
+     document.getElementById('sfw').style.display = 'none';
+     document.getElementById('nsfw').style.display = 'block';
    } 
    else {
      console.log('SFW');
-     document.getElementById('sfw').style.visibility = 'visible';
-     document.getElementById('nsfw').style.visibility = 'hidden';
+     document.getElementById('sfw').style.display = 'block';
+     document.getElementById('nsfw').style.display = 'none';
    }
 }
 
