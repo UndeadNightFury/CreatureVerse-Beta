@@ -1,34 +1,50 @@
-function updateNsfw()
-{
-    var checkbox = document.querySelector('input[type="checkbox"]');
-    var nsfw = localStorage.getItem("NsfwEnabled");
-    if (nsfw) {
-       // do this
-       console.log('NSFW');
-       document.getElementById('sfw').style.visibility = 'hidden';
-       document.getElementById('nsfw').style.visibility = 'visible';
-     } 
-     else {
-       // do that
-       console.log('SFW');
-       document.getElementById('sfw').style.visibility = 'visible';
-       document.getElementById('nsfw').style.visibility = 'hidden';
-     }
+function setCookie(name, value, days) {
+  var expires = "";
+  if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days*24*60*60*1000));
+      expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + (value || "")  + expires + "; path=/";
 }
 
-function initNsfwCheckbox()
-{
-    var checkbox = document.querySelector('input[type="checkbox"]');
-    var nsfw = localStorage.getItem("NsfwEnabled");
-    checkbox.checked = nsfw;
-    updateNsfw();
+function getCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for(var i=0;i < ca.length;i++) {
+      var c = ca[i];
+      while (c.charAt(0)==' ') c = c.substring(1,c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+  }
+  return null;
+}
+
+function updateNsfw() {
+  var nsfw = getCookie("NsfwEnabled");
+  if (nsfw == "true") {
+     console.log('NSFW');
+     document.getElementById('sfw').style.visibility = 'hidden';
+     document.getElementById('nsfw').style.visibility = 'visible';
+   } 
+   else {
+     console.log('SFW');
+     document.getElementById('sfw').style.visibility = 'visible';
+     document.getElementById('nsfw').style.visibility = 'hidden';
+   }
+}
+
+function initNsfwCheckbox() {
+  var checkbox = document.querySelector('input[type="checkbox"]');
+  var nsfw = getCookie("NsfwEnabled");
+  checkbox.checked = nsfw == "true";
+  updateNsfw();
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-   var checkbox = document.querySelector('input[type="checkbox"]');
-   checkbox.addEventListener('change', function () {
-       localStorage.setItem("NsfwEnabled", checkbox.checked);
-       updateNsfw();
-   });
-    initNsfwCheckbox();
+ var checkbox = document.querySelector('input[type="checkbox"]');
+ checkbox.addEventListener('change', function () {
+     setCookie("NsfwEnabled", checkbox.checked, 365); // set cookie to expire in 365 days
+     updateNsfw();
  });
+  initNsfwCheckbox();
+});
