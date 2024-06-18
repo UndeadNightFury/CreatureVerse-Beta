@@ -412,6 +412,13 @@ h4{
   
 /* This is the new CSS for mobile devices */
 @media screen and (max-width: 600px) {
+	.nsfw_align {
+		float: right;
+		position: fixed;
+		right: 40;
+		top: 60;
+	}
+
 	.switch {
 	  width: 40px;
 	  height: 20px;
