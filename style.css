@@ -430,8 +430,8 @@ h4{
 	}
   
 	.slider:before {
-	  height: 18px;
-	  width: 18px;
+	  height: 23px;
+	  width: 23px;
 	}
   
 	input:checked + .slider:before {
