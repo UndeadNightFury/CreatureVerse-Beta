@@ -415,8 +415,8 @@ h4{
 	.nsfw_align {
 		float: right;
 		position: fixed;
-		left: 40;
-		top: 80;
+		left: 10;
+		top: 30;
 	}
 
 	.switch {
