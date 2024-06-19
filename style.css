@@ -69,13 +69,11 @@ h4{
 
 .fixed-bottom-left {
     position: fixed;
-    bottom: 5%;
-    left: 5%;
+    bottom: 5% !important;
+    left: 5% !important;
 }
 
 .version {
-	bottom: 5%;
-	left: 5%;
 	width: fit-content;
 	font-style: italic;
 	font-size: 10pt;
@@ -97,6 +95,42 @@ h4{
 	position: fixed;
 	bottom: 5%;
 	right: 5%;
+}
+
+.disclaimer-text-mobile, .version-mobile, .report-mobile, .credits-btn-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 1200px), screen and (min-width: 3840px) {
+	.credits-btn, .disclaimer-text, .fixed-bottom-left, .version-mobile, .report {
+		display: none;
+	}
+
+	.credits-btn-mobile {
+		display: block;
+		bottom: 7%;
+		left: 5.2%;
+	}
+	
+	.version-mobile {
+		display: block;
+		width: fit-content;
+		font-style: italic;
+		font-size: 10pt;
+		font-family: sans-serif;
+		background-color: #00000080;
+	}
+	
+	.disclaimer-text-mobile {
+		display: block;
+		font-size: 10pt;
+		font-family: Verdana;
+		background-color: #00000080;
+	}
+
+	.report-mobile {
+		display: block;
+	}
 }
 
 .writer {
@@ -479,7 +513,7 @@ h4{
   }
   
 /* This is the new CSS for mobile devices */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
 	.nsfw_align {
 		float: right;
 		position: fixed;
