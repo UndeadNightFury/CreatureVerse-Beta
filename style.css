@@ -115,17 +115,53 @@ h4{
 }
 
 .title-text {
+	font-family: Starcraft, Verdana, sans-serif;
 	text-align: center;
-	font-style: italic, bold;
+	font-style: italic;
+	font-weight: bold;
 	margin: auto;
 	width: fit-content;
-	font-size: 15pt;
+	font-size: 30pt;
+	color: #d2691e;
 	background-color: #00000080;
+	/*line-height: 0.25;*/
 }
 
 @media screen and (min-width: 600px) {
     .title-text {
         width: fit-content;
+    }
+}
+
+.socialMobile {
+	display: none;
+}
+
+.social1 {
+	float: left;
+	position: fixed;
+	top: 39%;
+	left: 2%;
+}
+
+.social2 {
+	float: left;
+	position: fixed;
+	top: 39%;
+	right: 7%;
+}
+
+@media screen and (max-width: 600px) {
+    .socialMobile {
+        display: block;
+    }
+
+    .social1 {
+        display: none;
+    }
+
+    .social2 {
+        display: none;
     }
 }
 
