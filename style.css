@@ -115,10 +115,18 @@ h4{
 }
 
 .title-text {
+	text-align: center;
+	font-style: italic, bold;
 	margin: auto;
 	width: fit-content;
 	font-size: 15pt;
 	background-color: #00000080;
+}
+
+@media screen and (min-width: 600px) {
+    .title-text {
+        width: fit-content;
+    }
 }
 
 .warning-text-index {
