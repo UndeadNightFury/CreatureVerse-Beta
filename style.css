@@ -223,9 +223,44 @@ h4{
     }
 }
 
+.countdown {
+	padding-left: 3px;
+	padding-right: 7px;
+	position: fixed;
+	top: 18%;
+	right: 18%;
+	width: fit-content;
+	font-size: 18pt;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Starcraft, Verdana, sans-serif;
+	background-color: #00000080;
+}
+
+.countdown-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 1200px), screen and (min-width: 3840px) {
+	.countdown {
+		display: none;
+	}
+
+	.countdown-mobile {
+		display: block;
+		width: fit-content;
+		font-size: 18pt;
+		font-style: italic;
+		font-weight: bold;
+		font-family: Starcraft, Verdana, sans-serif;
+		background-color: #00000080;
+	}
+}
+
 .warning-text-index {
+	text-align: center;
 	margin: auto;
-	width: 75%;
+	width: 80%;
 	font-size: 18pt;
 	font-style: italic;
 	font-weight: bold;
