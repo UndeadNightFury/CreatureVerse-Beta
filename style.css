@@ -198,15 +198,22 @@ h4{
 .social1 {
 	float: left;
 	position: fixed;
-	bottom: 29%;
-	left: 31%;
+	bottom: 35%;
+	left: 3%;
 }
 
 .social2 {
 	float: left;
 	position: fixed;
-	bottom: 29%;
-	right: 31%;
+	bottom: 28%;
+	left: 3%;
+}
+
+.social3 {
+	float: left;
+	position: fixed;
+	bottom: 13%;
+	right: 3%;
 }
 
 @media screen and (max-width: 1200px), screen and (min-width: 3840px) {
@@ -221,6 +228,23 @@ h4{
     .social2 {
         display: none;
     }
+
+	.social3 {
+		display: none;
+	}
+}
+
+.countdown-text {
+	padding-bottom: 1%;
+	position: fixed;
+	top: 14%;
+	right: 14%;
+	width: fit-content;
+	font-size: 18pt;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Verdana, sans-serif;
+	background-color: #00000080;
 }
 
 .countdown {
@@ -228,16 +252,19 @@ h4{
 	padding-right: 7px;
 	position: fixed;
 	top: 18%;
-	right: 18%;
+	right: 17%;
 	width: fit-content;
 	font-size: 18pt;
 	font-style: italic;
 	font-weight: bold;
 	font-family: Starcraft, Verdana, sans-serif;
-	background-color: #00000080;
 }
 
 .countdown-mobile {
+	display: none;
+}
+
+.countdown-text-mobile {
 	display: none;
 }
 
@@ -255,6 +282,21 @@ h4{
 		font-family: Starcraft, Verdana, sans-serif;
 		background-color: #00000080;
 	}
+
+	.countdown-text-mobile {
+		display: block;
+		width: fit-content;
+		font-size: 18pt;
+		font-style: italic;
+		font-weight: bold;
+		font-family: Verdana, sans-serif;
+		background-color: #00000080;
+	}
+
+	.countdown-text {
+		display: none;
+	}
+	
 }
 
 .warning-text-index {
