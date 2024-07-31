@@ -413,6 +413,13 @@ h4{
 	background-color: #00000080;
 }
 
+.credits-hive {
+	margin: auto;
+	width: fit-content;
+	font-size: 18pt;
+	font-family: XenoPose;
+}
+
 .link {
 	font-size: 18pt;
 	font-style: italic;
