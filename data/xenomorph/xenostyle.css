@@ -1,7 +1,7 @@
-/*importing Starcraft font for use*/
-@import url("font/starcraft.css");
-@import url("font/cascadia.css");
-@import url("font/xenopose.css");
+/*importing XenoPose font for use*/
+@import url("../../font/XenoPose.css");
+@import url("../../font/XenoPose.css");
+@import url("../../font/XenoPose.css");
 
 body {
 	padding-left: 10%;
@@ -9,7 +9,7 @@ body {
 }
 
 html{
-	background-image: url("data/img/ui/background.png");
+	background-image: url("../img/ui/background.png");
 	background-size: 100%;
 	background-color: black;
 }
@@ -19,18 +19,18 @@ p{
 }
 
 a{
-	font-family: Starcraft, Verdana, sans-serif;
+	font-family: XenoPose, Verdana, sans-serif;
 	font-size: 24pt;
 	color: #800000;
 }
 
 li{
-	font-family: Starcraft, Verdana, sans-serif;
+	font-family: XenoPose, Verdana, sans-serif;
 	color: brown;
 }
 
 h1{
-	font-family: Starcraft, Verdana, sans-serif;
+	font-family: XenoPose, Verdana, sans-serif;
 	font-style:italic;
 	color: #d2691e;
 	/*line-height: 0.25;*/
@@ -41,7 +41,7 @@ h2{
 }
 
 h3{
-    font-family: Starcraft, Verdana, sans-serif;
+    font-family: XenoPose, Verdana, sans-serif;
     font-size: 34pt;
     color: orange;
     font-style: italic;
@@ -135,7 +135,7 @@ h4{
 }
 
 .writer {
-	font-family: Cascadia, Verdana, sans-serif;
+	font-family: XenoPose, Verdana, sans-serif;
 	padding: 0pt 3pt;
 	width: fit-content;
 	margin-left: auto;
@@ -146,14 +146,14 @@ h4{
 .large-text {
 	width: fit-content;
 	font-size: 18pt;
-	font-family: Cascadia, monospace;
+	font-family: XenoPose, monospace;
 	background-color: #00000080;
 }
 
 .sfw-text {
 	width: fit-content;
 	font-size: 18pt;
-	font-family: Cascadia, monospace;
+	font-family: XenoPose, monospace;
 	background-color: #00000080;
 }
 
@@ -161,7 +161,7 @@ h4{
 	top: 0;
 	width: fit-content;
 	font-size: 18pt;
-	font-family: Cascadia, monospace;
+	font-family: XenoPose, monospace;
 	background-color: #00000080;
 	display: none;
 }
@@ -174,7 +174,7 @@ h4{
 }
 
 .title-text {
-	font-family: Starcraft, Verdana, sans-serif;
+	font-family: XenoPose, Verdana, sans-serif;
 	text-align: center;
 	font-style: italic;
 	font-weight: bold;
@@ -268,7 +268,7 @@ h4{
 	font-size: 18pt;
 	font-style: italic;
 	font-weight: bold;
-	font-family: Starcraft, Verdana, sans-serif;
+	font-family: XenoPose, Verdana, sans-serif;
 }
 
 .countdown-mobile {
@@ -290,7 +290,7 @@ h4{
 		font-size: 18pt;
 		font-style: italic;
 		font-weight: bold;
-		font-family: Starcraft, Verdana, sans-serif;
+		font-family: XenoPose, Verdana, sans-serif;
 		background-color: #00000080;
 	}
 
@@ -317,7 +317,7 @@ h4{
 	font-size: 18pt;
 	font-style: italic;
 	font-weight: bold;
-	font-family: Cascadia;
+	font-family: XenoPose;
 	background-color: #00000080;
 }
 
@@ -325,7 +325,7 @@ h4{
 	font-size: 18pt;
 	font-style: italic;
 	font-weight: bold;
-	font-family: Cascadia;
+	font-family: XenoPose;
 	background-color: #00000080;
 }
 
@@ -333,7 +333,7 @@ h4{
 	font-size: 18pt;
 	font-style: italic;
 	font-weight: bold;
-	font-family: Cascadia;
+	font-family: XenoPose;
 }
 
 .choose-text {
@@ -341,15 +341,8 @@ h4{
 	margin: auto;
 	width: fit-content;
 	font-size: 20pt;
+	font-family: XenoPose, Verdana;
 	background-color: #00000080;
-}
-
-.choose-text-xeno {
-	padding: 0px 5px;
-	margin: auto;
-	width: fit-content;
-	font-size: 20pt;
-	font-family: XenoPose;
 }
 
 .choose-text-small {
@@ -363,7 +356,7 @@ h4{
 	margin: auto;
 	width: fit-content;
 	font-size: 20pt;
-	font-family: Starcraft;
+	font-family: XenoPose;
 	background-color: #00000080;
 }
 
@@ -377,20 +370,20 @@ h4{
 	font-size: 20pt;
 	font-weight: bold;
 	font-style: italic;
-	font-family: Starcraft, Cascadia, monospace;
+	font-family: XenoPose, XenoPose, monospace;
 	color: silver;
 }
 
 .coming-soon-old {
 	font-size: 16pt;
-	font-family: Cascadia, monospace;
+	font-family: XenoPose, monospace;
 	font-style: italic;
 	font-weight: bold;
 }
 
 .realm {
 	font-size: 15pt;
-	font-family: Cascadia, monospace;
+	font-family: XenoPose, monospace;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -421,14 +414,14 @@ h4{
 .oc-link {
 	width: fit-content;
 	font-size: 18pt;
-	font-family: Cascadia, monospace;
+	font-family: XenoPose, monospace;
 	color: #006400;
 }
 
 .hidden-link {
 	width: fit-content;
 	font-size: 18pt;
-	font-family: Cascadia, monospace;
+	font-family: XenoPose, monospace;
 	text-decoration: none;
 	color: #006400;
 }
@@ -509,7 +502,7 @@ h4{
   background-color: black;
   border-radius: 5px;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-  font-family: Cascadia, Verdana, Sans-serif;
+  font-family: XenoPose, Verdana, Sans-serif;
   transition: 400ms;
 }
 
@@ -532,7 +525,7 @@ h4{
 	margin-bottom: 8px;
 	border-radius: 8px;
 	cursor: pointer;
-	font-family: Starcraft, Verdana, Sans-serif;
+	font-family: XenoPose, Verdana, Sans-serif;
 }
 
 /* Cookie Banner END */
@@ -606,7 +599,7 @@ h4{
    top: 50%;
    left: 50%;
    font-size: 10px;
-   font-family: Verdana, sans-serif;
+   font-family: XenoPose, Verdana, sans-serif;
   }
   
   input:checked + .slider:after
