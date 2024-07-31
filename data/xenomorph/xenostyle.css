@@ -1,7 +1,7 @@
-/*importing XenoPose font for use*/
-@import url("../../font/XenoPose.css");
-@import url("../../font/XenoPose.css");
-@import url("../../font/XenoPose.css");
+/*importing Starcraft font for use*/
+@import url("../../font/starcraft.css");
+@import url("../../font/cascadia.css");
+@import url("../../font/xenopose.css");
 
 body {
 	padding-left: 10%;
