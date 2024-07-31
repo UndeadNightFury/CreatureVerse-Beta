@@ -362,7 +362,7 @@ h4{
 
 .coming-soon {
 	height: 3%;
-	content:url(data/img/ui/coming_soon.png);
+	content:url(../img/ui/coming_soon.png);
 }
 
 .coming-soon-link {
