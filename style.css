@@ -422,6 +422,13 @@ h4{
 	color: #545151;
 }
 
+.credits-hive-text {
+	margin: auto;
+	width: fit-content;
+	font-size: 18pt;
+	font-family: XenoPose;
+}
+
 .link {
 	font-size: 18pt;
 	font-style: italic;
@@ -431,6 +438,13 @@ h4{
 	width: fit-content;
 	font-size: 18pt;
 	font-family: Cascadia, monospace;
+	color: #006400;
+}
+
+.oc-link-hive {
+	width: fit-content;
+	font-size: 18pt;
+	font-family: XenoPose, monospace;
 	color: #006400;
 }
 
