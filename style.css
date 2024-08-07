@@ -344,12 +344,13 @@ h4{
 	background-color: #00000080;
 }
 
-.choose-text-xeno {
+.choose-text-hive {
 	padding: 0px 5px;
 	margin: auto;
 	width: fit-content;
 	font-size: 20pt;
 	font-family: XenoPose;
+	color: #545151;
 }
 
 .choose-text-small {
@@ -418,6 +419,7 @@ h4{
 	width: fit-content;
 	font-size: 18pt;
 	font-family: XenoPose;
+	color: #545151;
 }
 
 .link {
