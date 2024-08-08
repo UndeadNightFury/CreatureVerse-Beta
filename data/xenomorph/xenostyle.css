@@ -427,35 +427,35 @@ h4{
 }
 
 .the_end {
-	content:url(data/img/ui/the_end.png);
+	content:url(../img/ui/the_end.png);
 	margin: auto;
 }
 
 .incomplete, .warning {
-	content:url(data/img/ui/warning.png);
+	content:url(../img/ui/warning.png);
 	width: 70%;
 }
 
 .new {
-	content:url(data/img/ui/new.png);
+	content:url(../img/ui/new.png);
 	height: 3%;
 }
 
-.beta {content:url(data/img/ui/beta.png);
+.beta {content:url(.../img/ui/beta.png);
     height: 3%;
 }
 
 .new-old {
-	content:url(data/img/ui/new.png);
+	content:url(.../img/ui/new.png);
 	width: 10%;
 }
 
-.beta-old {content:url(data/img/ui/beta.png);
+.beta-old {content:url(.../img/ui/beta.png);
     width: 10%;
 }
 
 .former {
-	content:url(data/img/ui/former.png);
+	content:url(.../img/ui/former.png);
 	width: auto;
 }
 
