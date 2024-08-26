@@ -26,12 +26,12 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "CreatureVerse 5th Anniversary!";
+    document.getElementById("countdown").innerHTML = "v0.4 Release!";
   }
 
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown-mobile").innerHTML = "CreatureVerse 5th Anniversary!";
+    document.getElementById("countdown-mobile").innerHTML = "v0.4 Release!";
   }
 }, 1000);

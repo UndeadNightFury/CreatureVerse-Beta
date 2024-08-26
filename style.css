@@ -311,14 +311,39 @@ h4{
 }
 
 .warning-text-index {
+	position: fixed;
 	text-align: center;
 	margin: auto;
-	width: 80%;
+	width: 20%;
 	font-size: 18pt;
 	font-style: italic;
 	font-weight: bold;
 	font-family: Cascadia;
 	background-color: #00000080;
+	bottom: 15%;
+	right: 5%;
+}
+
+.warning-text-index-mobile {
+	display: none;
+}
+
+@media screen and (max-width: 1200px), screen and (min-width: 3840px) {
+	.warning-text-index {
+		display: none;
+	}
+
+	.warning-text-index-mobile {
+		display: block;
+		text-align: center;
+		margin: auto;
+		width: 80%;
+		font-size: 18pt;
+		font-style: italic;
+		font-weight: bold;
+		font-family: Cascadia;
+		background-color: #00000080;
+	}
 }
 
 .warning-text {
