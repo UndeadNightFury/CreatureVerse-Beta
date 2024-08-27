@@ -12,15 +12,45 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<div class="nsfw_align">
-<label class="switch">
-<input type="checkbox" id="togBtn">
-<div class="slider round"></div>
-</label>
-</div>
+<style>
+    .sky {
+        content: url(data/img/avatar/sky.png);
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+    }
+
+    .sky-mobile {
+        display: none;
+    }
+
+    @media screen and (max-width: 1200px), screen and (min-width: 3840px) {
+        .sky {
+            display: none;
+        }
+
+        .sky-mobile {
+            display: block;
+            content: url(data/img/avatar/sky.png);
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+    }
+    
+</style>
+
+<span class="warning"></span>
 
 <body>
-<span class="warning"></span>
+<div class="sfw-text">
+<p align="left">
+After being fed up with unmaintained CYOA sites Inferno decided to make his own.
+</p>
+</div>
+
+<div class="sky"></div>
+<div class="sky-mobile"></div>
 </body>
 <p>
 <a href="index.html"><img src="data/img/ui/back.png" alt="Back" height="30" width="100"></a>
