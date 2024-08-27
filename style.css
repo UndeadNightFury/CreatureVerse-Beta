@@ -98,12 +98,18 @@ h4{
 	right: 5%;
 }
 
-.disclaimer-text-mobile, .version-mobile, .report-mobile, .credits-btn-mobile {
+.about {
+	position: fixed;
+	bottom: 5%;
+	left: 13%;
+}
+
+.disclaimer-text-mobile, .version-mobile, .report-mobile, .credits-btn-mobile, .about-mobile {
 	display: none;
 }
 
 @media screen and (max-width: 1200px), screen and (min-width: 3840px) {
-	.credits-btn, .disclaimer-text, .fixed-bottom-left, .version-mobile, .report {
+	.credits-btn, .disclaimer-text, .fixed-bottom-left, .version-mobile, .report, .about {
 		display: none;
 	}
 
@@ -130,6 +136,10 @@ h4{
 	}
 
 	.report-mobile {
+		display: block;
+	}
+
+	.about-mobile {
 		display: block;
 	}
 }
