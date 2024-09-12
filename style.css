@@ -278,7 +278,7 @@ h4{
 	font-size: 18pt;
 	font-style: italic;
 	font-weight: bold;
-	font-family: Starcraft, Verdana, sans-serif;
+	font-family: XenoPose, Starcraft, Verdana, sans-serif;
 }
 
 .countdown-mobile {
@@ -709,18 +709,17 @@ h4{
 
   /* Drop Menu */
 
-  /*
   .dropbtn {
-	background-color: #3498DB;
-	color: white;
+	background-color: #008000;
+	color: silver;
 	padding: 16px;
 	font-size: 16px;
 	border: none;
 	cursor: pointer;
   }
-  
+
   .dropbtn:hover, .dropbtn:focus {
-	background-color: #2980B9;
+	background-color: #006600;
   }
   
   .dropdown {
@@ -733,7 +732,7 @@ h4{
   .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #f1f1f1;
+	background-color: #008000;
 	min-width: 160px;
 	overflow: auto;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -747,7 +746,7 @@ h4{
 	display: block;
   }
   
-  .dropdown a:hover {background-color: #ddd;}
+  .dropdown a:hover {background-color: #006600;}
   
   .show {display: block;}
 
@@ -756,6 +755,5 @@ h4{
 		display: none;
   }
 }
-*/
 
 /* Drop Menu END */
