@@ -1,13 +1,19 @@
 function updateTFToggle() {
   var tfEnabled = getCookie("tfEnabled"); // Assuming getCookie is a function that retrieves cookie values
+  const wolfs=document.getElementsByClassName('wolf');
+  const humans=document.getElementsByClassName('human');
   if (tfEnabled == "true") {
      console.log('TF Enabled');
-     document.getElementById('human').style.display = 'none';
-     document.getElementById('wolf').style.display = 'block';
+     for(let i=0;i<2;i++){
+        humans[i].style.display='none';
+        wolfs[i].style.display='block';
+     }
+     
   } else {
-     console.log('TF Disabled');
-     document.getElementById('human').style.display = 'block';
-     document.getElementById('wolf').style.display = 'none';
+    for(let i=0;i<2;i++){
+      humans[i].style.display='block';
+      wolfs[i].style.display='none';
+   }
   }
 }
 
@@ -21,6 +27,7 @@ function initTFToggle() {
 document.addEventListener('DOMContentLoaded', function () {
   var checkbox = document.getElementById('tfToggle'); // Match this ID with your TF toggle checkbox
   checkbox.addEventListener('change', function () {
+    
       setCookie("tfEnabled", checkbox.checked, 365); // Use a specific cookie for the TF toggle
       updateTFToggle();
   });
