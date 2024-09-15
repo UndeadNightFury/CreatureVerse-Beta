@@ -185,6 +185,38 @@ h4{
 	display: none;
 }
 
+.human-text {
+	width: fit-content;
+	font-size: 18pt;
+	font-family: Cascadia, monospace;
+	background-color: #00000080;
+}
+
+.wolf-text {
+	top: 0;
+	width: fit-content;
+	font-size: 18pt;
+	font-family: Cascadia, monospace;
+	background-color: #00000080;
+	display: none;
+}
+
+.nsfw-human-text {
+	width: fit-content;
+	font-size: 18pt;
+	font-family: Cascadia, monospace;
+	background-color: #00000080;
+}
+
+.nsfw-wolf-text {
+	top: 0;
+	width: fit-content;
+	font-size: 18pt;
+	font-family: Cascadia, monospace;
+	background-color: #00000080;
+	display: none;
+}
+
 .large-text-link {
 	margin: auto;
 	width: 50%;
