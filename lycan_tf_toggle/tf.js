@@ -10,6 +10,7 @@ function updateTFToggle() {
      }
      
   } else {
+    console.log('TF Disabled');
     for(let i=0;i<2;i++){
       humans[i].style.display='block';
       wolfs[i].style.display='none';
