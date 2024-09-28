@@ -716,9 +716,8 @@ h4{
 /* This is the new CSS for mobile devices */
 @media screen and (max-width: 1200px) {
 	.nsfw_align {
-		float: right;
-		position: fixed;
-		left: 10;
+		position: absolute;
+		right: 10;
 		top: 30;
 	}
 
@@ -828,10 +827,9 @@ h4{
 /* This is the new CSS for mobile devices */
 @media screen and (max-width: 1200px) {
 	.tf_align {
-		float: right;
-		position: fixed;
-		left: 10;
-		top: 30;
+		position: absolute;
+		right: 10;
+		top: 65;
 	}
 
 	.tf_switch {
